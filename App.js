@@ -34,14 +34,14 @@ let heading4 = React.createElement('div', { id: "parent" },
   [
     React.createElement('div', { id: "child1" },
       [
-        React.createElement('h1', { id: "child1_h1" }, "Hii!!, I am H1 tag of child1"),
-        React.createElement('h2', { id: "child1_h2" }, "Hii!!, I am H2 tag of child1")
+        React.createElement('h1', { id: "child1_h1" }, "Hii !!, I am H1 tag of child1"),
+        React.createElement('h3', { id: "child1_h2" }, "Hiiiiiii !!, I am H3 tag of child1")
       ]
     ),
     React.createElement('div', { id: "child2" },
       [
-        React.createElement('h1', { id: "child2_h1" }, "Hii!!, I am H1 tag of child2"),
-        React.createElement('h2', { id: "child2_h2" }, "Hii!!, I am H2 tag of child2")
+        React.createElement('h1', { id: "child2_h1" }, "Hii !!, I am H1 tag of child2"),
+        React.createElement('h2', { id: "child2_h2" }, "Hii !!, I am H2 tag of child2")
       ]
     ),
   ]
